@@ -27,7 +27,7 @@ section {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1200px;
 }
 
 .navbar .nav-wrapper {
@@ -127,7 +127,7 @@ section {
 
 .content-left .form-panel {
   position: relative;
-  width: 640px;
+  width: 600px;
   height: 110px;
   background-color: rgb(255, 255, 255);
   border-radius: 70px;
@@ -214,7 +214,7 @@ section {
 }
 
 .content-right .img-wrapper {
-  max-width: 800px;
+  max-width: 560px;
 }
 .content-right .img-wrapper img {
   width: 100%;
@@ -234,6 +234,7 @@ section {
   margin: auto;
 }
 .service-wrapper .row1 {
+  padding-top: 30px;
   text-align: center;
 }
 .service-wrapper .label-service {
@@ -260,7 +261,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+
   border-radius: 50px 50px 0 0;
 }
 .row2 .box-service {
@@ -609,7 +610,7 @@ section {
   color: var(--second-color);
 }
 .col-1-footer .subheading-footer {
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 20px;
   width: 400px;
 }
@@ -619,13 +620,15 @@ section {
   margin: 20px 5px;
 }
 .col-1-footer .copy {
-  margin-top: 50px;
+  margin-top: 20px;
+  width: 300px;
+  padding-bottom: 30px;
 }
 .col-2-footer h3,
 .col-3-footer h3,
 .col-4-footer h3,
 .col-5-footer h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-family: var(--heading-font);
   font-weight: 700;
 }
@@ -642,12 +645,12 @@ section {
 .col-2-footer li a,
 .col-3-footer li a,
 .col-4-footer li a {
-  font-size: 18px;
+  font-size: 15px;
   color: #4a4a4a;
 }
 .col-5-footer p {
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 15px;
 }
 .form-input {
   padding: 20px 30px;
